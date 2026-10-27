@@ -13,7 +13,8 @@ from pathlib import Path
 from fontTools.ttLib import TTFont
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_FONT = ROOT / "ShahjahanAsha-SourceGlyphSeed-0.10-private-test.ttf"
+DEFAULT_FONT = ROOT / "ShahjahanAsha-0.10.ttf"
+LICENSE = ROOT / "LICENSE.txt"
 SOURCE_MAP = ROOT / "SOURCE-MAP-MERGED-PROVISIONAL.csv"
 OWNER_MAP = ROOT / "OWNER-CONFIRMED-CELLS-0.10.csv"
 PROOF = ROOT / "proofs" / "owner-confirmed-ligature-source-vs-font.png"
@@ -62,11 +63,21 @@ def main() -> None:
             "Missing required validation tool(s): " + ", ".join(missing_tools)
             + ". Install HarfBuzz (hb-shape) and OpenType Sanitizer (ots-sanitize), then retry."
         )
-    for required in [SOURCE_MAP, OWNER_MAP, PROOF,
-                     ROOT / "ShahjahanAsha-SourceGlyphSeed-0.10-private-test.sfd",
+    for required in [LICENSE, ROOT / "LICENSE-SCOPE.md",
+                     ROOT / "docs" / "author-profile.md",
+                     ROOT / "docs" / "author" / "mehedi-hasan.webp",
+                     SOURCE_MAP, OWNER_MAP, PROOF,
+                     ROOT / "ShahjahanAsha-0.10.sfd",
                      ROOT / "ShahjahanAsha-opentype-features-0.10.fea"]:
         if not required.is_file():
             errors.append(f"Missing release artifact: {required.relative_to(ROOT)}")
+
+    if LICENSE.is_file():
+        license_text = LICENSE.read_text(encoding="utf-8")
+        if "SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007" not in license_text:
+            errors.append("LICENSE.txt does not contain the complete OFL 1.1 text")
+        if "with Reserved Font Name" in license_text:
+            errors.append("This release must not declare a Reserved Font Name")
     inventories = [
         ("SVG outlines", list(SVG_DIR.glob("*.svg")), 105),
         ("PGM masks", list(MASK_DIR.glob("*.pgm")), 105),
@@ -94,6 +105,24 @@ def main() -> None:
         errors.append("Owner-confirmed map must contain exactly the four 0.10 cells")
 
     font = TTFont(font_path)
+    names = font["name"]
+    expected_names = {
+        0: "Copyright (c) 2026 Md. Mehedi Hasan (https://github.com/MrBikel).",
+        1: "Shahjahan Asha",
+        2: "Regular",
+        4: "Shahjahan Asha",
+        5: "Version 0.10",
+        6: "ShahjahanAsha-Regular",
+        13: "This Font Software is licensed under the SIL Open Font License, Version 1.1. See LICENSE.txt.",
+        14: "https://openfontlicense.org",
+    }
+    for name_id, expected in expected_names.items():
+        values = {record.toUnicode() for record in names.names if record.nameID == name_id}
+        if expected not in values:
+            errors.append(f"Font name ID {name_id} missing expected release metadata: {expected}")
+    if any("private test" in record.toUnicode().lower()
+           for record in names.names if record.nameID in {0, 2, 3, 4, 5, 6}):
+        errors.append("Private-test wording remains in released TTF name metadata")
     cmap = font.getBestCmap()
     glyph_order = font.getGlyphOrder()
     glyf = font["glyf"]

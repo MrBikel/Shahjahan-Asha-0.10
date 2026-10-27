@@ -1,4 +1,4 @@
-Shahjahan Asha 0.10 private-test feature assignments
+Shahjahan Asha 0.10 feature assignments
 
 Reference: Microsoft, Developing OpenType Fonts for Bengali
 https://learn.microsoft.com/en-us/typography/script-development/bengali

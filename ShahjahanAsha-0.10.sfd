@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: ShahjahanAsha-SourceGlyphSeed-0.10-private-test
-FullName: Shahjahan Asha Source Glyph Seed 0.10 Private Test
+FontName: ShahjahanAsha-Regular
+FullName: Shahjahan Asha
 FamilyName: Shahjahan Asha
-Weight: Book
-Copyright: Copyright 2026 Md. Mehedi Hasan. Private test; not for redistribution.
-Version: 0.10 private test
+Weight: Regular
+Copyright: Copyright (c) 2026 Md. Mehedi Hasan (https://github.com/MrBikel).
+Version: 0.10
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -80,7 +80,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Source Glyph Seed 0.10 Private Test" "ShahjahanAsha-SourceGlyphSeed-0.10-private-test" "" "Version 0.10 private test"
+LangName: 1033 "" "" "Regular" "ShahjahanAsha-Regular" "" "Version 0.10"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
