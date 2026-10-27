@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -16,6 +17,9 @@ DEFAULT_FONT = ROOT / "ShahjahanAsha-SourceGlyphSeed-0.10-private-test.ttf"
 SOURCE_MAP = ROOT / "SOURCE-MAP-MERGED-PROVISIONAL.csv"
 OWNER_MAP = ROOT / "OWNER-CONFIRMED-CELLS-0.10.csv"
 PROOF = ROOT / "proofs" / "owner-confirmed-ligature-source-vs-font.png"
+SVG_DIR = ROOT / "sources" / "svg"
+MASK_DIR = ROOT / "sources" / "masks"
+CROP_DIR = ROOT / "sources" / "confirmed-crops"
 NEW = [
     ("ক্ক", "lig_kka", "U+0995 U+09CD U+0995", "R1C1"),
     ("ক্ত", "lig_kta", "U+0995 U+09CD U+09A4", "R1C4"),
@@ -52,11 +56,29 @@ def main() -> None:
     font_path = args.font.expanduser().resolve()
     if not font_path.is_file():
         raise SystemExit(f"Missing TTF: {font_path}")
+    missing_tools = [tool for tool in ("hb-shape", "ots-sanitize") if shutil.which(tool) is None]
+    if missing_tools:
+        raise SystemExit(
+            "Missing required validation tool(s): " + ", ".join(missing_tools)
+            + ". Install HarfBuzz (hb-shape) and OpenType Sanitizer (ots-sanitize), then retry."
+        )
     for required in [SOURCE_MAP, OWNER_MAP, PROOF,
                      ROOT / "ShahjahanAsha-SourceGlyphSeed-0.10-private-test.sfd",
                      ROOT / "ShahjahanAsha-opentype-features-0.10.fea"]:
         if not required.is_file():
             errors.append(f"Missing release artifact: {required.relative_to(ROOT)}")
+    inventories = [
+        ("SVG outlines", list(SVG_DIR.glob("*.svg")), 105),
+        ("PGM masks", list(MASK_DIR.glob("*.pgm")), 105),
+        ("PNG masks", list(MASK_DIR.glob("*.png")), 105),
+        ("confirmed source crops", list(CROP_DIR.glob("*.png")), 4),
+    ]
+    for label, files, expected_count in inventories:
+        if len(files) != expected_count:
+            errors.append(f"Expected {expected_count} {label}, found {len(files)}")
+        empty = [path.relative_to(ROOT) for path in files if path.stat().st_size == 0]
+        if empty:
+            errors.append(f"Empty {label} files: {empty}")
 
     try:
         with SOURCE_MAP.open(encoding="utf-8-sig", newline="") as stream:
@@ -236,7 +258,7 @@ def main() -> None:
     print("PASS: six default substitutions; six isolated feature tests; four wrong-feature exclusions")
     print("PASS: four unrelated conjunct controls; six ligature outline bounds")
     print("PASS: inherited attachment checks — virama 35/35, post/below 175/175, pre-base 105/105")
-    print("PASS: source maps, editable SFD, SVG/mask sources, visual proof, and OpenType Sanitizer")
+    print("PASS: source maps, editable SFD, 105 SVGs, 210 masks, 4 confirmed crops, visual proof, and OpenType Sanitizer")
     print(f"Validated: {font_path}")
 
 

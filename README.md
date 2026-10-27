@@ -23,7 +23,7 @@ python3 scripts/build_from_sfd.py
 python3 tests/validate_release.py
 ```
 
-The builder writes a rebuilt candidate under `dist/` and does not overwrite the shipped TTF. To validate a rebuilt candidate, pass it with `--font dist/ShahjahanAsha-SourceGlyphSeed-0.10-rebuilt.ttf`.
+The builder writes a rebuilt candidate under `dist/` and refuses to overwrite files elsewhere in the repository. A custom `--output` must be under `dist/` or outside the repository; the shipped TTF is never overwritten. To validate a rebuilt candidate, pass it with `--font dist/ShahjahanAsha-SourceGlyphSeed-0.10-rebuilt.ttf`.
 
 FontForge adds two unencoded utility glyphs (`.null` and `nonmarkingreturn`) when exporting that candidate from the SFD. The validator permits only those two extras while checking the same 107 meaningful glyphs and shaping/positioning behavior. The shipped TTF remains the exact tested 107-glyph build.
 

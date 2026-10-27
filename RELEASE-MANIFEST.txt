@@ -1,10 +1,10 @@
-Shahjahan Asha 0.10 release manifest
-SHA-256 checksums for every committed file except this manifest.
+# Shahjahan Asha 0.10 release manifest
+# SHA-256 checksums for every committed file except this manifest.
 
 a68ff19e82b13c952305616d063b7a4a37fde0a9cfd5c82e10b880efaa9e2981  .gitignore
 fc3910176b865cefa6bf544f08b815998b3093adf48da49fcf56810027bfd7cf  FEATURE-ASSIGNMENT-NOTES-0.10.txt
 3defdc012468c987c99629d9b8504967d4716322990ab5ddd2e6e3a7da0db0e1  OWNER-CONFIRMED-CELLS-0.10.csv
-f1c93a9bf36d93ac5a2453f705fdcacde1b8cce898f53d193dd82c18b803e05c  README.md
+548e59a6c7dc85312302cc7f55e19f1138ab64c7b23d0fa3cb393e1a7c2c5ad6  README.md
 0f8bf31df05167915523f6ad1d62d89a2221609d626515afe65b0af9ddfbe92b  SOURCE-MAP-MERGED-PROVISIONAL.csv
 5be480c361705f7192cb33791a062d8a48f6d7596c7e067e0b0a1416b97b736f  ShahjahanAsha-SourceGlyphSeed-0.10-private-test.sfd
 8efdacb0e915a73ef43246ca485b28611fce9e6ec3f3cd08b821fcffe7d968b1  ShahjahanAsha-SourceGlyphSeed-0.10-private-test.ttf
@@ -13,7 +13,7 @@ f1c93a9bf36d93ac5a2453f705fdcacde1b8cce898f53d193dd82c18b803e05c  README.md
 3defdc012468c987c99629d9b8504967d4716322990ab5ddd2e6e3a7da0db0e1  TRACE-DETAILS-0.10.csv
 7d9413a1572b3447cd3f9242f1c779ced0c81fa90c64312d9faf01f8f54b5e57  proofs/harfbuzz-shaping-proof.txt
 74e8df262ff950d26a24d1a1ca6a47697f068ac195a366c2be367ef8948cec75  proofs/owner-confirmed-ligature-source-vs-font.png
-aadb028d9c0e4ca08b5cce2af82b6188100a9e0785080a618d795c6db0a3bd14  scripts/build_from_sfd.py
+6170b53475475697044fd4d608fd74cbb4be5f913da77faa9f0a73c32e4e4f7f  scripts/build_from_sfd.py
 9aac9905949da388e0ea2dd477810a505094f6885f98e74e971bddf539e504d6  sources/confirmed-crops/R1C1-1000033803-rot180.png
 2cf8e80f5856c2b7fa49fca8ace26cd301143010f5532e7d76a1fb91f926d401  sources/confirmed-crops/R1C4-1000033803-rot180.png
 7195f5bebe838a1c41617794fdae46e5a358f478e663987d6750225d2905436f  sources/confirmed-crops/R1C6-1000033803-rot180.png
@@ -334,4 +334,4 @@ c8c5896f51ff9597e85238863e905516bdb6cc4c95ad04c28501dec9d1513185  sources/svg/un
 9675bdea1478a7eacb1484f9bcbba4e1fdd9ffa5e562c6658038cb1309f752f3  sources/svg/uni09EE.svg
 d6272b350fc77917f4e2b2a2c2ccccf99c9a96958348ae3b023ab69c960f05d7  sources/svg/uni09EF.svg
 821643c67f79780443be4cbe2af6168a7cec663b713c7f098aa9f971f693018c  tests/requirements.txt
-86ed208892eed466ffe68069774c6e5917b03690449bb0e613daff3c23760c44  tests/validate_release.py
+bd96852c75162b540add26d5adf10058df8207e709b3eb14bfebec13ead59048  tests/validate_release.py

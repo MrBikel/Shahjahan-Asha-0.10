@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -23,17 +24,23 @@ def main() -> None:
                         help=f"candidate output path (default: {DEFAULT_OUTPUT.relative_to(ROOT)})")
     args = parser.parse_args()
 
+    if shutil.which("fontforge") is None:
+        raise SystemExit("FontForge is required to rebuild this font; install FontForge and retry.")
     if not SFD.is_file() or not FEATURES.is_file():
         raise SystemExit("Missing released SFD or OpenType feature source")
     output = args.output.expanduser().resolve()
+    repository = ROOT.resolve()
+    dist_dir = (ROOT / "dist").resolve()
+    if output.is_relative_to(repository) and not output.is_relative_to(dist_dir):
+        raise SystemExit("Refusing to write inside the repository outside dist/; choose dist/ or a path outside the repository.")
     if output == SHIPPED_TTF.resolve():
         raise SystemExit("Refusing to overwrite the shipped prototype TTF")
     output.parent.mkdir(parents=True, exist_ok=True)
 
-    with tempfile.TemporaryDirectory(prefix="shahjahan-asha-010-") as temp_dir:
+    with tempfile.TemporaryDirectory(prefix="shahjahan-asha-010-", dir=output.parent) as temp_dir:
         temp = Path(temp_dir)
         raw_ttf = temp / "fontforge-output.ttf"
-        featured_ttf = output.with_name(output.stem + ".tmp.ttf")
+        featured_ttf = temp / "featured-font.ttf"
         fontforge_script = (
             "import fontforge; "
             f"font = fontforge.open({str(SFD)!r}); "
