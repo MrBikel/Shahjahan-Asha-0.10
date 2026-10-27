@@ -1,0 +1,19 @@
+Shahjahan Asha 0.10 — HarfBuzz shaping proof
+Font: ShahjahanAsha-SourceGlyphSeed-0.10-private-test.ttf
+Command settings: hb-shape; script=Beng; direction=ltr; shaper=ot; JSON output.
+
+Default Bengali shaping:
+  ক্ষ: [{"g":"lig_ksha","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  ক্ষ্ম: [{"g":"lig_kshma","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  ক্ক: [{"g":"lig_kka","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  ক্ত: [{"g":"lig_kta","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  ক্র: [{"g":"lig_kra","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  ক্ল: [{"g":"lig_kla","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+
+Feature-isolated shaping:
+  akhn ক্ষ: [{"g":"lig_ksha","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  akhn ক্ষ্ম: [{"g":"lig_kshma","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  cjct ক্ক: [{"g":"lig_kka","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  cjct ক্ত: [{"g":"lig_kta","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  vatu ক্র: [{"g":"lig_kra","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]
+  cjct ক্ল: [{"g":"lig_kla","cl":0,"dx":0,"dy":0,"ax":1000,"ay":0}]

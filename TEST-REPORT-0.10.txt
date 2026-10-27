@@ -1,0 +1,51 @@
+Shahjahan Asha — 0.10 private test report
+Status: isolated private test derived from unchanged 0.9; not for public release or redistribution.
+Unicode cmap: 100 entries (99 inherited provisional source characters + space; conjuncts are GSUB-only).
+Glyph order: 107; 2 inherited provisional ligatures plus 4 owner-confirmed source-derived ligatures.
+Editable FontForge SFD: True; four new SVG/mask pairs: 4/4.
+OpenType features: GSUB ['akhn', 'cjct', 'vatu']; GPOS ['blwm', 'dist'].
+Microsoft basic-shaping order: nukt, akhn, rphf, blwf, half, pstf, vatu, cjct; other basic and presentation forms remain unimplemented.
+OpenType Sanitizer: PASS.
+Outline bounds for six ligatures (-5..1005): 0 violations.
+Inherited GPOS checks: virama 35/35; post-/below-base signs 175/175; pre-base signs 105/105.
+Default Bengali shaping substitutions: 6/6 passed.
+Explicit feature-isolated checks: akhn 2/2; cjct 3/3; vatu 1/1.
+Wrong-feature exclusions for new forms: 4/4 passed.
+Unrelated control conjuncts without missing glyphs or unexpected ligatures: 4/4 passed.
+Pillow RAQM available: True; source-vs-render proof: owner-confirmed-ligature-source-vs-font.png.
+
+Owner-confirmed additions (source photo 1000033803.jpg only):
+  R1C1: ক্ক, U+0995 U+09CD U+0995 → lig_kka (cjct)
+  R1C4: ক্ত, U+0995 U+09CD U+09A4 → lig_kta (cjct)
+  R1C6: ক্র, U+0995 U+09CD U+09B0 → lig_kra (vatu)
+  R1C7: ক্ল, U+0995 U+09CD U+09B2 → lig_kla (cjct)
+
+Default Bengali shaping outputs:
+  ক্ষ → lig_ksha; pass=True; output=[{'g': 'lig_ksha', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  ক্ষ্ম → lig_kshma; pass=True; output=[{'g': 'lig_kshma', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  ক্ক → lig_kka; pass=True; output=[{'g': 'lig_kka', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  ক্ত → lig_kta; pass=True; output=[{'g': 'lig_kta', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  ক্র → lig_kra; pass=True; output=[{'g': 'lig_kra', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  ক্ল → lig_kla; pass=True; output=[{'g': 'lig_kla', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+
+Explicit feature-tag outputs:
+  akhn: ক্ষ → lig_ksha; pass=True; output=[{'g': 'lig_ksha', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  akhn: ক্ষ্ম → lig_kshma; pass=True; output=[{'g': 'lig_kshma', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  cjct: ক্ক → lig_kka; pass=True; output=[{'g': 'lig_kka', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  cjct: ক্ত → lig_kta; pass=True; output=[{'g': 'lig_kta', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  vatu: ক্র → lig_kra; pass=True; output=[{'g': 'lig_kra', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+  cjct: ক্ল → lig_kla; pass=True; output=[{'g': 'lig_kla', 'cl': 0, 'dx': 0, 'dy': 0, 'ax': 1000, 'ay': 0}]
+
+Wrong-feature exclusions:
+  ক্ক under vatu only → not lig_kka; pass=True
+  ক্ত under vatu only → not lig_kta; pass=True
+  ক্র under cjct only → not lig_kra; pass=True
+  ক্ল under vatu only → not lig_kla; pass=True
+
+Preserved baseline context:
+  0.9 provisional ক্ষ and ক্ষ্ম remain in akhn and unchanged in behavior; their original provisional source map and audit notes are retained under audit-context/.
+  Microsoft documents cjct for conjunct forms, particularly where the pre-base consonant has no half form; this partial font has no half-form feature/glyphs, so ক্ক, ক্ত and ক্ল are tested in cjct.
+  Microsoft specifically describes vatu for consonant + below-base vattu (ra-phala) ligatures and illustrates Ka + below-base Ra; ক্র is therefore tested in vatu.
+  The provisional cell index is retained as historical context; the four owner-confirmed mappings are in OWNER-CONFIRMED-CELLS-0.10.csv.
+  AdorshoLipi supplied no outlines, points, source code, or feature code; it was not used to create this test.
+  This is not complete Bengali shaping. Rights to redistribute handwriting samples and derived outlines remain unresolved. No public release, upload, distribution, or OFL claim is authorized.

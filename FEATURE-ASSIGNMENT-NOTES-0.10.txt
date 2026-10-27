@@ -1,0 +1,10 @@
+Shahjahan Asha 0.10 private-test feature assignments
+
+Reference: Microsoft, Developing OpenType Fonts for Bengali
+https://learn.microsoft.com/en-us/typography/script-development/bengali
+
+Microsoft lists Bengali basic-shaping order as nukt, akhn, rphf, blwf, half, pstf, vatu, cjct; presentation features follow, and GPOS follows GSUB.
+The existing 0.9 ক্ষ and ক্ষ্ম candidates remain in akhn as explicitly retained experiments.
+The new ক্ক, ক্ত and ক্ল direct conjunct substitutions are assigned to cjct; this partial font has no half-form feature or half-form glyphs. The guide describes cjct as the conjunct path particularly needed when a pre-base consonant has no half form.
+ক্র is assigned to vatu: the guide specifically describes vatu as a consonant plus below-base vattu (Bengali ra-phala) ligature and illustrates Ka + below-base Ra.
+These are narrowly scoped tests, not complete Bengali shaping. The font does not implement the other basic GSUB or presentation-form features.
