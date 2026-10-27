@@ -1,0 +1,118 @@
+﻿codepoint,glyph,group,old_bounds,new_bounds,old_advance,new_advance,rule
+U+0987,uni0987,controlled stroke refinement,"(90, -3, 600, 650)","(93, 3, 597, 641)",690,690,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+0988,uni0988,controlled stroke refinement,"(90, -2, 642, 650)","(98, 3, 638, 642)",732,732,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+0989,uni0989,controlled stroke refinement,"(90, 0, 850, 650)","(93, 3, 847, 647)",940,940,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+098A,uni098A,controlled stroke refinement,"(90, -26, 648, 650)","(93, 3, 645, 647)",738,738,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+098F,uni098F,controlled stroke refinement,"(90, 0, 763, 650)","(94, 4, 759, 646)",853,853,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+0990,uni0990,controlled stroke refinement,"(90, 0, 624, 650)","(94, 3, 619, 645)",714,714,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+0993,uni0993,controlled stroke refinement,"(90, -3, 792, 650)","(94, 3, 787, 645)",882,882,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+0994,uni0994,controlled stroke refinement,"(90, 0, 681, 650)","(95, 3, 678, 646)",771,771,FontForge changeWeight +6 units; owner contours only; counters retained for inspection
+U+09E6,uni09E6,controlled stroke refinement,"(85, 0, 561, 533)","(96, 6, 554, 527)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09E7,uni09E7,controlled stroke refinement,"(98, 0, 554, 603)","(104, 7, 547, 594)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09E8,uni09E8,controlled stroke refinement,"(93, -3, 559, 606)","(99, 7, 551, 594)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09E9,uni09E9,controlled stroke refinement,"(90, -5, 563, 321)","(96, 6, 554, 315)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09EA,uni09EA,controlled stroke refinement,"(117, 0, 535, 600)","(123, 9, 527, 594)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09EB,uni09EB,controlled stroke refinement,"(90, -1, 560, 575)","(96, 6, 554, 565)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09EC,uni09EC,controlled stroke refinement,"(89, -3, 561, 455)","(96, 6, 554, 446)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09ED,uni09ED,controlled stroke refinement,"(90, -2, 564, 547)","(96, 8, 554, 541)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09EE,uni09EE,controlled stroke refinement,"(90, -1, 560, 467)","(96, 6, 554, 461)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+09EF,uni09EF,controlled stroke refinement,"(90, 0, 561, 540)","(96, 6, 552, 532)",650,650,FontForge changeWeight +12 units; owner contours only; counters retained for inspection
+U+0985,uni0985,core optical grid,"(90, 0, 854, 650)","(90, 0, 854, 620)",944,944,family optical top 620; paired width correction 1.000; 90/90 bearings
+U+0986,uni0986,core optical grid,"(90, -2, 850, 650)","(90, -2, 850, 620)",940,940,family optical top 620; paired width correction 1.000; 90/90 bearings
+U+0987,uni0987,core optical grid,"(93, 3, 597, 641)","(90, 3, 594, 660)",690,684,family optical top 660; paired width correction 1.000; 90/90 bearings
+U+0988,uni0988,core optical grid,"(98, 3, 638, 642)","(90, 3, 630, 660)",732,720,family optical top 660; paired width correction 1.000; 90/90 bearings
+U+0989,uni0989,core optical grid,"(93, 3, 847, 647)","(90, 3, 769, 620)",940,859,family optical top 620; paired width correction 0.900; 90/90 bearings
+U+098A,uni098A,core optical grid,"(93, 3, 645, 647)","(90, 3, 670, 620)",738,760,family optical top 620; paired width correction 1.050; 90/90 bearings
+U+098B,uni098B,core optical grid,"(90, 0, 851, 650)","(90, 0, 775, 620)",941,865,family optical top 620; paired width correction 0.900; 90/90 bearings
+U+098F,uni098F,core optical grid,"(94, 4, 759, 646)","(90, 4, 742, 660)",853,832,family optical top 660; paired width correction 0.980; 90/90 bearings
+U+0990,uni0990,core optical grid,"(94, 3, 619, 645)","(90, 3, 646, 660)",714,736,family optical top 660; paired width correction 1.060; 90/90 bearings
+U+0993,uni0993,core optical grid,"(94, 3, 787, 645)","(90, 3, 769, 660)",882,859,family optical top 660; paired width correction 0.980; 90/90 bearings
+U+0994,uni0994,core optical grid,"(95, 3, 678, 646)","(90, 3, 696, 660)",771,786,family optical top 660; paired width correction 1.040; 90/90 bearings
+U+0995,uni0995,core optical grid,"(90, 0, 747, 650)","(90, 0, 747, 650)",837,837,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+0996,uni0996,core optical grid,"(90, 0, 776, 650)","(90, 0, 776, 650)",866,866,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+0997,uni0997,core optical grid,"(90, -2, 650, 650)","(90, -2, 650, 650)",740,740,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+0998,uni0998,core optical grid,"(90, 0, 765, 650)","(90, 0, 765, 650)",855,855,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+0999,uni0999,core optical grid,"(90, 0, 826, 650)","(90, 0, 826, 650)",916,916,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+099A,uni099A,core optical grid,"(90, -2, 798, 650)","(90, -2, 798, 650)",888,888,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+099B,uni099B,core optical grid,"(90, 0, 766, 650)","(90, 0, 766, 650)",856,856,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+099C,uni099C,core optical grid,"(90, -3, 852, 650)","(90, -3, 852, 650)",942,942,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+099D,uni099D,core optical grid,"(90, -10, 857, 650)","(90, -10, 857, 650)",947,947,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+099E,uni099E,core optical grid,"(90, -4, 856, 650)","(90, -4, 856, 620)",946,946,family optical top 620; paired width correction 1.000; 90/90 bearings
+U+099F,uni099F,core optical grid,"(90, -15, 514, 650)","(90, -15, 514, 650)",604,604,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A0,uni09A0,core optical grid,"(90, -1, 487, 650)","(90, -1, 487, 650)",577,577,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A1,uni09A1,core optical grid,"(90, -3, 778, 650)","(90, -3, 778, 650)",868,868,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A2,uni09A2,core optical grid,"(90, -5, 674, 650)","(90, -5, 674, 650)",764,764,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A3,uni09A3,core optical grid,"(90, 0, 682, 650)","(90, 0, 682, 650)",772,772,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A4,uni09A4,core optical grid,"(90, -1, 856, 650)","(90, -1, 856, 650)",946,946,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A5,uni09A5,core optical grid,"(90, -16, 742, 650)","(90, -16, 742, 650)",832,832,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A6,uni09A6,core optical grid,"(90, -4, 714, 650)","(90, -4, 714, 650)",804,804,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A7,uni09A7,core optical grid,"(90, 0, 730, 650)","(90, 0, 730, 650)",820,820,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09A8,uni09A8,core optical grid,"(90, -3, 714, 650)","(90, -3, 714, 650)",804,804,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09AA,uni09AA,core optical grid,"(90, 0, 850, 650)","(90, 0, 850, 620)",940,940,family optical top 620; paired width correction 1.000; 90/90 bearings
+U+09AB,uni09AB,core optical grid,"(90, -7, 850, 650)","(90, -7, 850, 650)",940,940,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09AC,uni09AC,core optical grid,"(90, 0, 779, 650)","(90, 0, 779, 650)",869,869,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09AD,uni09AD,core optical grid,"(90, 0, 817, 650)","(90, 0, 817, 650)",907,907,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09AE,uni09AE,core optical grid,"(90, 0, 771, 650)","(90, 0, 771, 650)",861,861,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09AF,uni09AF,core optical grid,"(90, -1, 771, 650)","(90, -1, 771, 650)",861,861,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09B0,uni09B0,core optical grid,"(90, -5, 692, 650)","(90, -5, 692, 650)",782,782,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09B2,uni09B2,core optical grid,"(90, -2, 849, 650)","(90, -2, 849, 650)",939,939,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09B6,uni09B6,core optical grid,"(90, -2, 687, 650)","(90, -2, 687, 650)",777,777,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09B7,uni09B7,core optical grid,"(90, 0, 792, 650)","(90, 0, 792, 650)",882,882,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09B8,uni09B8,core optical grid,"(90, 0, 858, 650)","(90, 0, 858, 620)",948,948,family optical top 620; paired width correction 1.000; 90/90 bearings
+U+09B9,uni09B9,core optical grid,"(90, -18, 921, 650)","(90, -18, 921, 650)",1011,1011,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09DC,uni09DC,core optical grid,"(90, -2, 667, 650)","(90, -2, 667, 650)",757,757,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09DD,uni09DD,core optical grid,"(90, 0, 578, 650)","(90, 0, 578, 650)",668,668,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09DF,uni09DF,core optical grid,"(90, 0, 774, 650)","(90, 0, 774, 650)",864,864,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09CE,uni09CE,core optical grid,"(90, -5, 778, 650)","(90, -5, 778, 650)",868,868,family optical top 650; paired width correction 1.000; 90/90 bearings
+U+09BE,uni09BE,dependent-sign optical adjustment,"(406, 0, 607, 407)","(406, 0, 623, 650)",0,189,"650-unit sign zone; 1.08× width; spacing advances reserved for aa/ii, anchor (406,0) retained"
+U+09C0,uni09C0,dependent-sign optical adjustment,"(350, 0, 644, 360)","(350, 0, 662, 740)",0,284,"740-unit sign zone; 1.06× width; spacing advances reserved for aa/ii, anchor (350,0) retained"
+U+09BF,uni09BF,dependent-sign optical adjustment,"(350, -2, 650, 316)","(342, -5, 658, 735)",0,0,"740-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (500,0) retained"
+U+09C7,uni09C7,dependent-sign optical adjustment,"(385, -1, 618, 364)","(379, -2, 624, 648)",0,0,"650-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (500,0) retained"
+U+09C8,uni09C8,dependent-sign optical adjustment,"(364, 0, 639, 362)","(357, 0, 646, 740)",0,0,"740-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (500,0) retained"
+U+09C1,uni09C1,dependent-sign optical adjustment,"(349, -4, 653, 245)","(341, 5, 661, 245)",0,0,"240-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (501,245) retained"
+U+09C2,uni09C2,dependent-sign optical adjustment,"(350, -1, 652, 231)","(342, -29, 660, 231)",0,0,"260-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (501,231) retained"
+U+09C3,uni09C3,dependent-sign optical adjustment,"(349, 0, 651, 285)","(341, 25, 659, 285)",0,0,"260-unit sign zone; 1.05× width; spacing advances reserved for aa/ii, anchor (500,285) retained"
+U+0981,uni0981,special-sign reconstruction,"(115, -8, 887, 561)","(0, 0, 240, 185)",1000,0,"owner crescent rebuilt to 240×90, separate owner dot 55×55 centered above; zero advance, GDEF/GPOS mark"
+U+0982,uni0982,special-sign spacing form,"(90, -2, 611, 650)","(20, 100, 333, 491)",701,393,"compact owner ring/tail retained as Bengali post-base spacing sign, 20/60 bearings; not a Devanagari-like above dot"
+U+0983,uni0983,special-sign optical adjustment,"(90, -1, 411, 650)","(60, 160, 220, 485)",501,280,"0.50× uniform outline, preserve two-dot source form, 60/60 bearings"
+U+09BC,uni09BC,below-dot system,"(439, -14, 564, 129)","(465, -70, 535, 0)",0,0,"same owner period-derived 70×70 dot; anchor (500,0), canonical composition supported for DDA/DDHA/YA"
+U+09DC,uni09DC,below-dot system,"(90, -2, 667, 650)","(90, -85, 778, 650)",757,868,owner uni09A1 body plus owner period-derived 70×70 dot centered at y=-85..-15; no guessed contour selection
+U+09DD,uni09DD,below-dot system,"(90, 0, 578, 650)","(90, -85, 674, 650)",668,764,owner uni09A2 body plus owner period-derived 70×70 dot centered at y=-85..-15; no guessed contour selection
+U+09DF,uni09DF,below-dot system,"(90, 0, 774, 650)","(90, -85, 771, 650)",864,861,owner uni09AF body plus owner period-derived 70×70 dot centered at y=-85..-15; no guessed contour selection
+U+0964,uni0964,danda optical/metric correction,"(100, 0, 268, 620)","(60, 0, 228, 600)",368,288,"600-unit height, 60/60 sidebearings; source remains owner's exclamation-stem adaptation"
+U+09E6,uni09E6,numeral system,"(96, 6, 554, 527)","(70, 6, 528, 599)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09E7,uni09E7,numeral system,"(104, 7, 547, 594)","(70, 7, 513, 600)",650,583,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09E8,uni09E8,numeral system,"(99, 7, 551, 594)","(70, 7, 522, 600)",650,592,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09E9,uni09E9,numeral system,"(96, 6, 554, 315)","(70, 6, 528, 595)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09EA,uni09EA,numeral system,"(123, 9, 527, 594)","(70, 9, 474, 600)",650,544,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09EB,uni09EB,numeral system,"(96, 6, 554, 565)","(70, 6, 528, 600)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09EC,uni09EC,numeral system,"(96, 6, 554, 446)","(70, 6, 528, 598)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09ED,uni09ED,numeral system,"(96, 8, 554, 541)","(70, 8, 528, 599)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09EE,uni09EE,numeral system,"(96, 6, 554, 461)","(70, 6, 528, 598)",650,598,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+09EF,uni09EF,numeral system,"(96, 6, 552, 532)","(70, 6, 526, 599)",650,596,"600-unit optical height, 70-unit sidebearings; baseline fixed"
+U+0021,uni0021,punctuation metrics,"(223, -5, 376, 625)","(60, -5, 213, 625)",600,273,shared 60-unit sidebearings; preserve source form
+U+0028,uni0028,punctuation metrics,"(198, -1, 407, 624)","(60, -1, 269, 624)",600,329,shared 60-unit sidebearings; preserve source form
+U+0029,uni0029,punctuation metrics,"(198, -2, 403, 620)","(60, -2, 265, 620)",600,325,shared 60-unit sidebearings; preserve source form
+U+002C,uni002C,punctuation metrics,"(242, -71, 357, 78)","(60, -71, 175, 78)",600,235,shared 60-unit sidebearings; preserve source form
+U+002D,uni002D,punctuation metrics,"(86, 255, 510, 312)","(60, 255, 484, 312)",600,544,shared 60-unit sidebearings; preserve source form
+U+002E,uni002E,punctuation metrics,"(263, 0, 338, 65)","(60, 0, 135, 65)",600,195,shared 60-unit sidebearings; preserve source form
+U+002F,uni002F,punctuation metrics,"(190, 0, 414, 306)","(60, 0, 284, 306)",600,344,shared 60-unit sidebearings; preserve source form
+U+003F,uni003F,punctuation metrics,"(147, 0, 446, 621)","(60, 0, 359, 621)",600,419,shared 60-unit sidebearings; preserve source form
+U+005B,uni005B,punctuation metrics,"(190, 0, 410, 590)","(60, 0, 280, 590)",600,340,shared 60-unit sidebearings; preserve source form
+U+005D,uni005D,punctuation metrics,"(195, 0, 405, 626)","(60, 0, 270, 626)",600,330,shared 60-unit sidebearings; preserve source form
+U+007B,uni007B,punctuation metrics,"(189, -2, 413, 455)","(60, -2, 284, 455)",600,344,shared 60-unit sidebearings; preserve source form
+U+007D,uni007D,punctuation metrics,"(187, -2, 412, 533)","(60, -2, 285, 533)",600,345,shared 60-unit sidebearings; preserve source form
+U+002B,uni002B,punctuation metrics,"(87, 185, 512, 417)","(60, 185, 485, 417)",600,545,shared 60-unit sidebearings; preserve source form
+U+002D,uni002D,punctuation metrics,"(60, 255, 484, 312)","(60, 255, 484, 312)",544,544,shared 60-unit sidebearings; preserve source form
+U+003D,uni003D,punctuation metrics,"(79, 209, 525, 391)","(60, 209, 506, 391)",600,566,shared 60-unit sidebearings; preserve source form
+U+00D7,uni00D7,punctuation metrics,"(136, 189, 467, 540)","(60, 189, 391, 540)",600,451,shared 60-unit sidebearings; preserve source form
+U+00F7,uni00F7,punctuation metrics,"(145, 190, 455, 540)","(60, 190, 370, 540)",600,430,shared 60-unit sidebearings; preserve source form
+U+09D7,uni09D7,new derived outline,—,"(0, 0, 266, 650)",—,278,"owner-derived curled U+09CC outline used as canonical AU right component, 650-unit height"
+U+003A,uni003A,new derived outline,—,"(60, 0, 135, 335)",—,195,two vertically aligned copies of owner-derived period dot
+U+003B,uni003B,new derived outline,—,"(60, -71, 175, 335)",—,235,owner-derived comma with a centered period dot
+U+2019,uni2019,new derived outline,—,"(60, 472, 175, 621)",—,235,owner-derived comma flipped vertically as a right single quote
+U+2018,uni2018,new derived outline,—,"(60, 472, 175, 621)",—,235,mirrored owner-derived comma as a left single quote
+U+201D,uni201D,new derived outline,—,"(60, 488, 209, 607)",—,269,two reduced owner-derived commas as a right double quote
+U+201C,uni201C,new derived outline,—,"(60, 488, 209, 607)",—,269,two mirrored reduced owner-derived commas as a left double quote
+U+2014,uni2014,new derived outline,—,"(60, 255, 802, 312)",—,862,owner-derived hyphen extended to a typographic em-dash width
+U+0025,uni0025,new derived outline,—,"(60, 0, 400, 578)",—,460,visible owner-derived upper-left/lower-right period dots and slash composed as percent

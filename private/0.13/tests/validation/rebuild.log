@@ -1,0 +1,9 @@
+Copyright (c) 2000-2024. See AUTHORS for Contributors.
+ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ with many parts BSD <http://fontforge.org/license.html>. Please read LICENSE.
+ Version: 20230101
+ Based on sources from 2024-03-31 07:36 UTC-ML-D-GDK3.
+PythonUI_Init()
+copyUIMethodsToBaseTable()
+Program root: /usr
+Built /workspace/Shahjahan-Asha-0.13-private/private/0.13/tests/validation/roundtrip.ttf

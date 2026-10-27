@@ -1,0 +1,51 @@
+﻿glyph,codepoint,category,primary_image,primary_rotation_degrees,source_row,source_column,crop_x0_original,crop_y0_original,crop_x1_original,crop_y1_original,crosscheck_image,crosscheck_rotation_degrees,audit_status
+ক,U+0995,consonant,1000033793.jpg,0,1,1,120,145,310,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+খ,U+0996,consonant,1000033793.jpg,0,1,2,310,145,500,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+গ,U+0997,consonant,1000033793.jpg,0,1,3,500,145,690,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঘ,U+0998,consonant,1000033793.jpg,0,1,4,690,145,880,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঙ,U+0999,consonant,1000033793.jpg,0,1,5,880,145,1070,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+চ,U+099A,consonant,1000033793.jpg,0,1,6,1070,145,1260,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ছ,U+099B,consonant,1000033793.jpg,0,1,7,1260,145,1450,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+জ,U+099C,consonant,1000033793.jpg,0,1,8,1450,145,1640,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঝ,U+099D,consonant,1000033793.jpg,0,1,9,1640,145,1830,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঞ,U+099E,consonant,1000033793.jpg,0,1,10,1830,145,2020,275,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ট,U+099F,consonant,1000033793.jpg,0,2,1,120,285,310,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঠ,U+09A0,consonant,1000033793.jpg,0,2,2,310,285,500,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ড,U+09A1,consonant,1000033793.jpg,0,2,3,500,285,690,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ঢ,U+09A2,consonant,1000033793.jpg,0,2,4,690,285,880,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ণ,U+09A3,consonant,1000033793.jpg,0,2,5,880,285,1070,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ত,U+09A4,consonant,1000033793.jpg,0,2,6,1070,285,1260,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+থ,U+09A5,consonant,1000033793.jpg,0,2,7,1260,285,1450,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+দ,U+09A6,consonant,1000033793.jpg,0,2,8,1450,285,1640,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ধ,U+09A7,consonant,1000033793.jpg,0,2,9,1640,285,1830,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ন,U+09A8,consonant,1000033793.jpg,0,2,10,1830,285,2020,425,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+প,U+09AA,consonant,1000033793.jpg,0,3,1,120,440,310,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ফ,U+09AB,consonant,1000033793.jpg,0,3,2,310,440,500,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ব,U+09AC,consonant,1000033793.jpg,0,3,3,500,440,690,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ভ,U+09AD,consonant,1000033793.jpg,0,3,4,690,440,880,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ম,U+09AE,consonant,1000033793.jpg,0,3,5,880,440,1070,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+য,U+09AF,consonant,1000033793.jpg,0,3,6,1070,440,1260,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+র,U+09B0,consonant,1000033793.jpg,0,3,7,1260,440,1450,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ল,U+09B2,consonant,1000033793.jpg,0,3,8,1450,440,1640,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+শ,U+09B6,consonant,1000033793.jpg,0,3,9,1640,440,1830,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+ষ,U+09B7,consonant,1000033793.jpg,0,3,10,1830,440,2020,565,1000033791.jpg,0,Provisional core map: visual row/column verified; compare alternate view before final trace
+স,U+09B8,consonant,1000033793.jpg,0,4,1,140,600,320,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+হ,U+09B9,consonant,1000033793.jpg,0,4,2,340,600,515,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+ড়,U+09DC,consonant,1000033793.jpg,0,4,3,540,600,710,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+ঢ়,U+09DD,consonant,1000033793.jpg,0,4,4,700,600,875,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+য়,U+09DF,consonant,1000033793.jpg,0,4,5,900,600,1050,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+ৎ,U+09CE,khanda-ta,1000033793.jpg,0,4,6,1100,600,1250,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+ং,U+0982,anusvara,1000033793.jpg,0,4,7,1280,600,1440,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+ঃ,U+0983,visarga,1000033793.jpg,0,4,8,1450,600,1610,715,1000033792.jpg,0,Provisional label; both full-sheet views registered and visible; source/source-map remains provisional; all 30 photos not yet individually reconciled.
+অ,U+0985,independent-vowel,1000033796.jpg,180,1,1,1674,454,1854,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+আ,U+0986,independent-vowel,1000033796.jpg,180,1,2,1464,454,1654,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ই,U+0987,independent-vowel,1000033796.jpg,180,1,3,1314,454,1484,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ঈ,U+0988,independent-vowel,1000033796.jpg,180,1,4,1134,454,1314,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+উ,U+0989,independent-vowel,1000033796.jpg,180,1,5,944,454,1144,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ঊ,U+098A,independent-vowel,1000033796.jpg,180,1,6,764,454,954,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ঋ,U+098B,independent-vowel,1000033796.jpg,180,1,7,594,454,764,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+এ,U+098F,independent-vowel,1000033796.jpg,180,1,8,454,454,594,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ঐ,U+0990,independent-vowel,1000033796.jpg,180,1,9,344,454,459,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ও,U+0993,independent-vowel,1000033796.jpg,180,1,10,234,454,339,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+ঔ,U+0994,independent-vowel,1000033796.jpg,180,1,11,84,454,229,575,1000033797.jpg,180,"Provisional conventional vowel-order label; 3796/3797 lower-row registered overlay (2884/3096 ORB ratio matches) confirms same source region, not Unicode label identity."
+।,U+0964,basic-punctuation,1000033798.jpg,180,2,7,667,1496,686,1548,1000033799.jpg,180,Provisional Bengali danda adapted from the owner’s own separate vertical stroke in the handwritten exclamation mark U+0021; this exact danda was not independently written. Crop and interpretation require typographic review.

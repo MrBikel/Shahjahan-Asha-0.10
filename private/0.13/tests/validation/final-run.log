@@ -1,0 +1,48 @@
+{
+  "validation_json": "/workspace/Shahjahan-Asha-0.13-private/private/0.13/tests/validation/validation.json",
+  "delivered_sha256": "40f3df7b695c74e562ee62bd42a9b63e628c2920e80deb59d5a123953aa75c3e",
+  "roundtrip_sha256": "d5f747377cb0c646ad090901859fab68097e4e5d2e076c6866605d0ab7bd0295",
+  "corpus": {
+    "lineCount": 15,
+    "sizes": [
+      12,
+      16,
+      24,
+      36,
+      48
+    ],
+    "comparisons": 75,
+    "differences": [],
+    "notdef": []
+  },
+  "coverage": {
+    "purpose": "Codepoint mapping and absence of .notdef in named tests; not linguistic or visual shaping acceptance.",
+    "corpusNotdefCount": 0,
+    "cmapEntries": 109,
+    "punctuationCoveragePass": true,
+    "requiredBaseCoveragePass": true,
+    "baseMatraPairCount": 70,
+    "baseMatraAllMapped": true
+  },
+  "masks": {
+    "sourceSFD": {
+      "0x0": 68,
+      "0x80000": 6,
+      "0x100000": 43,
+      "0x180000": 1
+    },
+    "deliveredTTF": {
+      "0x0": 74,
+      "0x100000": 44
+    },
+    "roundtripTTF": {
+      "0x0": 74,
+      "0x100000": 44
+    }
+  },
+  "physicalErrors": {
+    "sourceSFD": 0,
+    "deliveredTTF": 0,
+    "roundtripTTF": 0
+  }
+}

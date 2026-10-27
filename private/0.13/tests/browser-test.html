@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shahjahan Asha 0.13 private — browser test</title>
+<style>
+@font-face {
+  font-family: "ShahjahanAsha013";
+  src: url("../ShahjahanAsha-SourceGlyphSeed-0.13-private-test.ttf?sha256=40f3df7b695c") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+:root { --size: 16px; }
+* { box-sizing: border-box; }
+body { margin: 18px; color: #1b1b1b; background: #fff; font: 14px/1.35 system-ui, sans-serif; }
+h1 { margin: 0 0 4px; font-size: 19px; }
+p { margin: 0 0 12px; color: #444; }
+#status { padding: 6px 8px; margin: 8px 0 14px; border: 1px solid #bbb; font: 12px/1.35 monospace; white-space: pre-wrap; }
+#corpus { width: min(100%, 1500px); }
+.line { display: flex; gap: 10px; align-items: baseline; padding: 4px 0; border-bottom: 1px solid #eee; }
+.num { flex: 0 0 30px; color: #777; font: 11px/1 monospace; }
+.specimen { min-width: 0; max-width: 100%; white-space: normal; overflow-wrap: anywhere;
+  font-family: "ShahjahanAsha013", sans-serif; font-size: var(--size); line-height: 1.55;
+  font-weight: 400; font-feature-settings: "kern" 1; font-kerning: normal; }
+</style>
+</head>
+<body>
+<h1>Shahjahan Asha 0.13 — private Chromium specimen</h1>
+<p>First visual checks are lines 01–02; all requested corpus lines follow in order.</p>
+<pre id="status">Waiting for the local font to load…</pre>
+<div id="corpus"><div class="line" data-line="01"><span class="num">01</span> <span class="specimen">আমার সোনার বাংলা।</span></div>
+<div class="line" data-line="02"><span class="num">02</span> <span class="specimen">অ  আ  ই  ঈ  উ  ঊ  ঋ  এ  ঐ  ও  ঔ</span></div>
+<div class="line" data-line="03"><span class="num">03</span> <span class="specimen">ক কা কি কী কু কূ কৃ কে কৈ কো কৌ</span></div>
+<div class="line" data-line="04"><span class="num">04</span> <span class="specimen">গ গা গি গী গু গূ গৃ গে গৈ গো গৌ</span></div>
+<div class="line" data-line="05"><span class="num">05</span> <span class="specimen">ক গ ট ত ব র শ</span></div>
+<div class="line" data-line="06"><span class="num">06</span> <span class="specimen">ক্ ক্ত ক্র র্ক ক্ষ জ্ঞ ত্র শ্র প্র গ্র ব্র স্ত ন্ত ন্দ ম্প ঙ্ক</span></div>
+<div class="line" data-line="07"><span class="num">07</span> <span class="specimen">বাংলা রং সংগীত দুঃখ অন্তঃপুর চাঁদ হাঁস বড় গাঢ় সময় সৎ</span></div>
+<div class="line" data-line="08"><span class="num">08</span> <span class="specimen">০১২৩৪৫৬৭৮৯</span></div>
+<div class="line" data-line="09"><span class="num">09</span> <span class="specimen">২০২৬</span></div>
+<div class="line" data-line="10"><span class="num">10</span> <span class="specimen">১০০.৫০</span></div>
+<div class="line" data-line="11"><span class="num">11</span> <span class="specimen">১,২৫০</span></div>
+<div class="line" data-line="12"><span class="num">12</span> <span class="specimen">বাংলা ভাষা সুন্দর।</span></div>
+<div class="line" data-line="13"><span class="num">13</span> <span class="specimen">“কলম”, ‘বই’; তুমি কেমন আছ?</span></div>
+<div class="line" data-line="14"><span class="num">14</span> <span class="specimen">ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ড় ঢ় য় ৎ</span></div>
+<div class="line" data-line="15"><span class="num">15</span> <span class="specimen">। , . : ; ! ? “ ” ‘ ’ - — ( ) [ ] / %</span></div></div>
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search);
+  const allowed = new Set(["12", "16", "24", "36", "48"]);
+  const size = allowed.has(q.get("size")) ? q.get("size") : "16";
+  document.documentElement.style.setProperty("--size", size + "px");
+  const allText = [...document.querySelectorAll(".specimen")].map(e => e.textContent).join(" ");
+  const faces = await document.fonts.load(size + 'px "ShahjahanAsha013"', allText);
+  await document.fonts.ready;
+  const lines = [...document.querySelectorAll(".line")];
+  const failures = lines.filter(e => e.getBoundingClientRect().height <= 0 || e.scrollWidth > e.clientWidth);
+  const result = {
+    browser: navigator.userAgent,
+    sizePx: Number(size),
+    corpusLines: lines.length,
+    loadedFontFaces: faces.length,
+    fontCheck: document.fonts.check(size + 'px "ShahjahanAsha013"', allText),
+    documentFonts: document.fonts.size,
+    failedOrOverflowingLines: failures.map(e => e.dataset.line),
+    viewport: { width: innerWidth, height: innerHeight },
+    contentHeight: document.documentElement.scrollHeight,
+  };
+  const ok = result.loadedFontFaces > 0 && result.fontCheck && failures.length === 0;
+  document.body.dataset.testStatus = ok ? "PASS" : "FAIL";
+  const status = document.getElementById("status");
+  status.textContent = (ok ? "PASS" : "FAIL") + " — " + size + " px; " + lines.length + " corpus lines; " + faces.length + " loaded private font face; font check " + result.fontCheck + "; overflow failures " + failures.length;
+  status.dataset.report = JSON.stringify(result);
+})().catch(err => {
+  document.body.dataset.testStatus = "FAIL";
+  document.getElementById("status").textContent = "FAIL\n" + String(err);
+});
+</script>
+</body>
+</html>

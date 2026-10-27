@@ -1,0 +1,124 @@
+{
+  "protectedTrees": [
+    {
+      "path": "/workspace/Shahjahan-Asha-0.10",
+      "expected": {
+        "file_count": 338,
+        "sha256_tree": "7e55e1fc00af84d1b86bb24a69b56f3b64996a76b9dedad24b7f6e4095159922"
+      },
+      "actual": {
+        "file_count": 338,
+        "sha256_tree": "7e55e1fc00af84d1b86bb24a69b56f3b64996a76b9dedad24b7f6e4095159922"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.8",
+      "expected": {
+        "file_count": 311,
+        "sha256_tree": "09b701214416cf6f29f4224570c9a63fe988dfc4983fe4aed7915c8af64c23b7"
+      },
+      "actual": {
+        "file_count": 311,
+        "sha256_tree": "09b701214416cf6f29f4224570c9a63fe988dfc4983fe4aed7915c8af64c23b7"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.9",
+      "expected": {
+        "file_count": 320,
+        "sha256_tree": "8658f11b6836c5252b0dae3b28c997c1697341806ec12173627995682f313912"
+      },
+      "actual": {
+        "file_count": 320,
+        "sha256_tree": "8658f11b6836c5252b0dae3b28c997c1697341806ec12173627995682f313912"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.10-private-test",
+      "expected": {
+        "file_count": 653,
+        "sha256_tree": "7cfde5da7995df4d2db657fdf3439c8e1c5f00fd65e98932452432e07cd8ab0a"
+      },
+      "actual": {
+        "file_count": 653,
+        "sha256_tree": "7cfde5da7995df4d2db657fdf3439c8e1c5f00fd65e98932452432e07cd8ab0a"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.11-private-test",
+      "expected": {
+        "file_count": 27,
+        "sha256_tree": "c6f0358122d46ed274bf9b37ebf3cb89583417aa59d2306b1cd8b751a297ba46"
+      },
+      "actual": {
+        "file_count": 27,
+        "sha256_tree": "c6f0358122d46ed274bf9b37ebf3cb89583417aa59d2306b1cd8b751a297ba46"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/sandbox-preview-0.10",
+      "expected": {
+        "file_count": 2,
+        "sha256_tree": "5592bac1f522659f2a93acac45fce9fac10c31a39fb97b96bb812fd116cda70d"
+      },
+      "actual": {
+        "file_count": 2,
+        "sha256_tree": "5592bac1f522659f2a93acac45fce9fac10c31a39fb97b96bb812fd116cda70d"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "/workspace/shahjahan-asha-restart/sandbox-preview-0.11",
+      "expected": {
+        "file_count": 2,
+        "sha256_tree": "8651031a178bceef653f8ba125782b15525c0ca41e60bd00464d59379d0afc61"
+      },
+      "actual": {
+        "file_count": 2,
+        "sha256_tree": "8651031a178bceef653f8ba125782b15525c0ca41e60bd00464d59379d0afc61"
+      },
+      "unchanged": true
+    }
+  ],
+  "v012CopiedBaseline": [
+    {
+      "file": "ShahjahanAsha-SourceGlyphSeed-0.12-private-test.ttf",
+      "sha256": "5ee4ae4dd36dcb7a6e8d30690fe2eb6660da7ebb6a060b2d06877026c7ea9393",
+      "matchesOriginal": true
+    },
+    {
+      "file": "ShahjahanAsha-SourceGlyphSeed-0.12-private-test.sfd",
+      "sha256": "4d9ee8e9703edc889b29b4d8b33a8edf3d871eb6e19c9c47f43348e89424978a",
+      "matchesOriginal": true
+    },
+    {
+      "file": "ShahjahanAsha-opentype-features-0.12.fea",
+      "sha256": "eef90bec9ab0e5f1cec16d5eec15f79ae642303c2b564c7eca5885e906dbafa3",
+      "matchesOriginal": true
+    },
+    {
+      "file": "TEST-REPORT-0.12.txt",
+      "sha256": "886b526f1a4d165d0cbeb85c1f43957a530b9fb481214855c23b4bf9a3e1698c",
+      "matchesOriginal": true
+    },
+    {
+      "file": "SOURCE-MAP-TARGETS-0.12.csv",
+      "sha256": "145e762b80b025f59fdccc13d39dbbbe5fa4c18517fa003eadb7fa02ef645bfa",
+      "matchesOriginal": true
+    },
+    {
+      "file": "GLYPH-ADJUSTMENTS-0.12.csv",
+      "sha256": "b5879b5e971344117e40216c33b00f0945c91a8aedc69ca7e43ebcb9c72b986c",
+      "matchesOriginal": true
+    }
+  ],
+  "publicCheckoutGitStatus": "",
+  "allPriorManifestTreesUnchanged": true,
+  "allV012CopiedArtifactsMatch": true,
+  "note": "The prior protected-tree record predates creation of0.12. For0.12, the six copied baseline artifacts are byte-identical to the originals; no old source or preview was edited by this refinement."
+}

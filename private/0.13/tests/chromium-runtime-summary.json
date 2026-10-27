@@ -1,0 +1,95 @@
+{
+  "environment": "Connected Sandbox Chromium on Linux; the user’s Android device was not available for direct testing.",
+  "fontSha256": "40f3df7b695c74e562ee62bd42a9b63e628c2920e80deb59d5a123953aa75c3e",
+  "sizesPx": [
+    12,
+    16,
+    24,
+    36,
+    48
+  ],
+  "results": [
+    {
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "sizePx": 12,
+      "corpusLines": 15,
+      "loadedFontFaces": 1,
+      "fontCheck": true,
+      "documentFonts": 1,
+      "failedOrOverflowingLines": [],
+      "viewport": {
+        "width": 1280,
+        "height": 649
+      },
+      "contentHeight": 649
+    },
+    {
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "sizePx": 16,
+      "corpusLines": 15,
+      "loadedFontFaces": 1,
+      "fontCheck": true,
+      "documentFonts": 1,
+      "failedOrOverflowingLines": [],
+      "viewport": {
+        "width": 1280,
+        "height": 649
+      },
+      "contentHeight": 649
+    },
+    {
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "sizePx": 24,
+      "corpusLines": 15,
+      "loadedFontFaces": 1,
+      "fontCheck": true,
+      "documentFonts": 1,
+      "failedOrOverflowingLines": [],
+      "viewport": {
+        "width": 1280,
+        "height": 649
+      },
+      "contentHeight": 834
+    },
+    {
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "sizePx": 36,
+      "corpusLines": 15,
+      "loadedFontFaces": 1,
+      "fontCheck": true,
+      "documentFonts": 1,
+      "failedOrOverflowingLines": [],
+      "viewport": {
+        "width": 1280,
+        "height": 649
+      },
+      "contentHeight": 1168
+    },
+    {
+      "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "sizePx": 48,
+      "corpusLines": 15,
+      "loadedFontFaces": 1,
+      "fontCheck": true,
+      "documentFonts": 1,
+      "failedOrOverflowingLines": [],
+      "viewport": {
+        "width": 1280,
+        "height": 649
+      },
+      "contentHeight": 1615
+    }
+  ],
+  "screenshots": [
+    "chromium-12px.png",
+    "chromium-16px.png",
+    "chromium-24px-bottom.png",
+    "chromium-24px-top.png",
+    "chromium-36px-bottom.png",
+    "chromium-36px-top.png",
+    "chromium-48px-bottom.png",
+    "chromium-48px-middle.png",
+    "chromium-48px-top.png"
+  ],
+  "methodAndLimits": "For each size, all 15 lines were loaded with one custom @font-face, document.fonts.check passed, each text box had positive dimensions, and no line overflowed the browser content width. HarfBuzz/FontTools independently confirm this corpus has mapped glyphs and no .notdef. This is not per-glyph Chromium font attribution, Android testing, or proof of general conjunct correctness. At 24/36/48 px, multiple screenshots cover the scrollable page."
+}

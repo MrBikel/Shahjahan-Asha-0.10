@@ -1,0 +1,29 @@
+Shahjahan Asha — 0.12 private test verification report
+Status: separate private revision derived from unchanged 0.11; not published.
+Unicode cmap: 100 entries; glyph order: 107; UPM: 1000.
+Shared body grid: baseline y=0; main Bengali body top y=650; 49 core glyphs checked.
+Core mapped glyph height range: 0.11 493–676 units (median 652); 0.12 650–676 units (median 651), preserving descender depths.
+Largest positive-y-only normalizations: U+0989 উ ×1.318; U+09AA প ×1.171; U+0985 অ ×1.163.
+Core advances: geometry width + 180 units, with 90-unit left/right sidebearings; inherited anchors shifted with their outlines.
+Line metrics: hhea (760, -120, 120); OS/2 typo (760, -120, 120); OS/2 Windows (760, -150, 0).
+U+0964 danda: bounds=(100, 0, 268, 620), advance=368, left bearing=100; ink gap after a 90-unit body right bearing is 190 units.
+U+09BE inherited mark edge: xmin=406; advance=0.
+OpenType tables: GSUB ['akhn', 'cjct', 'vatu']; GPOS ['blwm', 'dist'].
+OTS sanitizer: PASS.
+Editable FontForge SFD present: True; source-map rows retained: 50.
+Six retained/owner-confirmed conjunct substitutions: 6/6 default; 6/6 isolated; 4/4 wrong-feature exclusions.
+Recalibrated inherited attachment checks: virama 35/35; post-/below-base signs 175/175; pre-base signs 105/105.
+Unrelated control conjuncts: 4/4 passed.
+Sentence, spaced independent vowels, and representative specimen shape without missing glyphs: True.
+Proofs: raw HarfBuzz renders are provided for both versions at 28px, 52px and 88px; composed before/after sheets are provided at 28px and 88px.
+Remaining visual limitations: this is still a partial Bengali font; shaping coverage is experimental and needs owner review on target devices. The strongest vertical-only resizes, especially U+0989 উ, should be judged for any unwanted stretching. U+0964 remains adapted from the owner's exclamation-stem source rather than an independently handwritten danda; non-Bengali punctuation and digits were not reworked in this pass.
+No AdorshoLipi outline, point, source, code or feature was used; 3804/3805 exercise images were not used.
+Private preview: http://localhost:4173/ — HTTP 200 for HTML and TTF; headless Chromium confirmed the custom font loaded and all three samples remained prefilled. This local address is confined to the Cue Sandbox and is not externally shareable.
+Protected public 0.10, private 0.10/0.11, private 0.10/0.11 previews, and the 0.8/0.9 build trees were compared with their pre-build hashes:
+  PASS /workspace/Shahjahan-Asha-0.10
+  PASS /workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.8
+  PASS /workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.9
+  PASS /workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.10-private-test
+  PASS /workspace/shahjahan-asha-restart/builds/source-glyph-seed-0.11-private-test
+  PASS /workspace/shahjahan-asha-restart/sandbox-preview-0.10
+  PASS /workspace/shahjahan-asha-restart/sandbox-preview-0.11

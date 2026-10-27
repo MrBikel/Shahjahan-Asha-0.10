@@ -1,0 +1,5 @@
+﻿cell_id,text,unicode_sequence,glyph_name,feature,source_image,rotation_degrees,crop_x0_original,crop_y0_original,crop_x1_original,crop_y1_original,confirmation,minimum_component_px,contour_paths,components_kept,mask_area_px,svg_width,svg_height
+R1C1,ক্ক,U+0995 U+09CD U+0995,lig_kka,cjct,1000033803.jpg,180,1789,946,2018,1152,owner-confirmed exact match; provisional audit coordinates only,80,1,1,1754,83.5,62.4
+R1C4,ক্ত,U+0995 U+09CD U+09A4,lig_kta,cjct,1000033803.jpg,180,1230,946,1414,1152,owner-confirmed exact match; provisional audit coordinates only,80,1,1,1606,76.9,63.6
+R1C6,ক্র,U+0995 U+09CD U+09B0,lig_kra,vatu,1000033803.jpg,180,843,946,1034,1152,owner-confirmed exact match; provisional audit coordinates only,80,1,1,1535,78.8,65.0
+R1C7,ক্ল,U+0995 U+09CD U+09B2,lig_kla,cjct,1000033803.jpg,180,650,946,843,1152,owner-confirmed exact match; provisional audit coordinates only,80,1,1,1698,83.9,66.4

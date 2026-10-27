@@ -1,0 +1,30 @@
+# First visual check (owner context)
+আমার সোনার বাংলা।
+অ  আ  ই  ঈ  উ  ঊ  ঋ  এ  ঐ  ও  ঔ
+
+# Required dependent-sign sequence (narrow and wide bases)
+ক কা কি কী কু কূ কৃ কে কৈ কো কৌ
+গ গা গি গী গু গূ গৃ গে গৈ গো গৌ
+ক গ ট ত ব র শ
+
+# Required priority conjunct set
+ক্ ক্ত ক্র র্ক ক্ষ জ্ঞ ত্র শ্র প্র গ্র ব্র স্ত ন্ত ন্দ ম্প ঙ্ক
+
+# Required special-sign sequence
+বাংলা রং সংগীত দুঃখ অন্তঃপুর চাঁদ হাঁস বড় গাঢ় সময় সৎ
+
+# Required Bengali numerals and number punctuation
+০১২৩৪৫৬৭৮৯
+২০২৬
+১০০.৫০
+১,২৫০
+
+# Required sentence and punctuation tests
+বাংলা ভাষা সুন্দর।
+“কলম”, ‘বই’; তুমি কেমন আছ?
+
+# Full independent consonant inventory requested in the owner context
+ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ড় ঢ় য় ৎ
+
+# Required punctuation isolated for cmap and fallback checking
+। , . : ; ! ? “ ” ‘ ’ - — ( ) [ ] / %

@@ -1,0 +1,324 @@
+{
+  "canonicalEquivalence": [
+    {
+      "direct": "ড়",
+      "decomposed": "ড়",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ড়ু",
+      "decomposed": "ড়ু",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ড়ূ",
+      "decomposed": "ড়ূ",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ড়ৃ",
+      "decomposed": "ড়ৃ",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ঢ়",
+      "decomposed": "ঢ়",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ঢ়ু",
+      "decomposed": "ঢ়ু",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ঢ়ূ",
+      "decomposed": "ঢ়ূ",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "ঢ়ৃ",
+      "decomposed": "ঢ়ৃ",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "য়",
+      "decomposed": "য়",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "য়ু",
+      "decomposed": "য়ু",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "য়ূ",
+      "decomposed": "য়ূ",
+      "exactShapeMatch": true
+    },
+    {
+      "direct": "য়ৃ",
+      "decomposed": "য়ৃ",
+      "exactShapeMatch": true
+    }
+  ],
+  "belowDotSeparation": [
+    {
+      "text": "ড়ু",
+      "dotBottom": -85,
+      "belowMarkTop": -121,
+      "verticalGapUnits": 36,
+      "pass": true
+    },
+    {
+      "text": "ড়ূ",
+      "dotBottom": -85,
+      "belowMarkTop": -111,
+      "verticalGapUnits": 26,
+      "pass": true
+    },
+    {
+      "text": "ড়ৃ",
+      "dotBottom": -85,
+      "belowMarkTop": -110,
+      "verticalGapUnits": 25,
+      "pass": true
+    },
+    {
+      "text": "ঢ়ু",
+      "dotBottom": -85,
+      "belowMarkTop": -121,
+      "verticalGapUnits": 36,
+      "pass": true
+    },
+    {
+      "text": "ঢ়ূ",
+      "dotBottom": -85,
+      "belowMarkTop": -111,
+      "verticalGapUnits": 26,
+      "pass": true
+    },
+    {
+      "text": "ঢ়ৃ",
+      "dotBottom": -85,
+      "belowMarkTop": -110,
+      "verticalGapUnits": 25,
+      "pass": true
+    },
+    {
+      "text": "য়ু",
+      "dotBottom": -85,
+      "belowMarkTop": -121,
+      "verticalGapUnits": 36,
+      "pass": true
+    },
+    {
+      "text": "য়ূ",
+      "dotBottom": -85,
+      "belowMarkTop": -111,
+      "verticalGapUnits": 26,
+      "pass": true
+    },
+    {
+      "text": "য়ৃ",
+      "dotBottom": -85,
+      "belowMarkTop": -110,
+      "verticalGapUnits": 25,
+      "pass": true
+    }
+  ],
+  "shapes": {
+    "ড়": [
+      {
+        "g": "uni09DC",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 868,
+        "ay": 0
+      }
+    ],
+    "ড়ু": [
+      {
+        "g": "uni09DC",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 868,
+        "ay": 0
+      },
+      {
+        "g": "uni09C1",
+        "cl": 0,
+        "dx": -935,
+        "dy": -355,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "ড়ূ": [
+      {
+        "g": "uni09DC",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 868,
+        "ay": 0
+      },
+      {
+        "g": "uni09C2",
+        "cl": 0,
+        "dx": -935,
+        "dy": -341,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "ড়ৃ": [
+      {
+        "g": "uni09DC",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 868,
+        "ay": 0
+      },
+      {
+        "g": "uni09C3",
+        "cl": 0,
+        "dx": -934,
+        "dy": -395,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "ঢ়": [
+      {
+        "g": "uni09DD",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 764,
+        "ay": 0
+      }
+    ],
+    "ঢ়ু": [
+      {
+        "g": "uni09DD",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 764,
+        "ay": 0
+      },
+      {
+        "g": "uni09C1",
+        "cl": 0,
+        "dx": -883,
+        "dy": -355,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "ঢ়ূ": [
+      {
+        "g": "uni09DD",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 764,
+        "ay": 0
+      },
+      {
+        "g": "uni09C2",
+        "cl": 0,
+        "dx": -883,
+        "dy": -341,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "ঢ়ৃ": [
+      {
+        "g": "uni09DD",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 764,
+        "ay": 0
+      },
+      {
+        "g": "uni09C3",
+        "cl": 0,
+        "dx": -882,
+        "dy": -395,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "য়": [
+      {
+        "g": "uni09DF",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 861,
+        "ay": 0
+      }
+    ],
+    "য়ু": [
+      {
+        "g": "uni09DF",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 861,
+        "ay": 0
+      },
+      {
+        "g": "uni09C1",
+        "cl": 0,
+        "dx": -932,
+        "dy": -355,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "য়ূ": [
+      {
+        "g": "uni09DF",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 861,
+        "ay": 0
+      },
+      {
+        "g": "uni09C2",
+        "cl": 0,
+        "dx": -932,
+        "dy": -341,
+        "ax": 0,
+        "ay": 0
+      }
+    ],
+    "য়ৃ": [
+      {
+        "g": "uni09DF",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 861,
+        "ay": 0
+      },
+      {
+        "g": "uni09C3",
+        "cl": 0,
+        "dx": -931,
+        "dy": -395,
+        "ax": 0,
+        "ay": 0
+      }
+    ]
+  },
+  "meaning": "12 exact direct/decomposed shaping comparisons; 9 measured vertical ink-box separations. This checks these three dot letters with u/uu/vocalic-r, not all possible mark stacks."
+}
